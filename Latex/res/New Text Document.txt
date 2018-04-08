@@ -1,0 +1,6 @@
+low-level-actions.png
+http://dokumentix.ub.uni-siegen.de/opus/volltexte/2015/963/pdf/Dissertation_Timo_Kehrer.pdf
+
+dependencygraph.png
+https://en.m.wikipedia.org/wiki/Dependency_graph
+
