@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_HrgUMLJEEeeVgKgW_ZuPjw" uriOriginModel="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet" uriChangedModel="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet">
+  <operationInvocations xmi:id="_HrgUMbJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUMrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.9"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.9"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUM7JEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.9/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUNLJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.9/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclHLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUNbJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUNrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.12"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.12"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUN7JEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.12/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUOLJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.12/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclJrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUObJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUOrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.5"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.5"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUO7JEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.5/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUPLJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.5/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclMLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUPbJEEeeVgKgW_ZuPjw" name="SET_ATTRIBUTE_Timing_Mean" editRuleName="SET_ATTRIBUTE_Timing_Mean">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUPrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.1/@distribution.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.1/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_HrgUP7JEEeeVgKgW_ZuPjw" formalName="Mean" actual="135"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclOrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUQLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUQbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.17"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.17"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUQrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.17/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUQ7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.17/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclQLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgURLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgURbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgURrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUR7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclSrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUSLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUSbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.7"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUSrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.7/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUS7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.7/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclVLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUTLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUTbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUTrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUT7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclXrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUULJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUUbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUUrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUU7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclaLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUVLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUVbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUVrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUV7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclcrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUWLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUWbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.13"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.13"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUWrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.13/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUW7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.13/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclfLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUXLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUXbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.7"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUXrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.7/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUX7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.7/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclhrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUYLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUYbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUYrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUY7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclkLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUZLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUZbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.8"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.8"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUZrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.8/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUZ7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.8/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclmrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUaLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUabJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.18"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.18"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUarJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.18/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUa7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.18/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclpLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUbLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUbbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.14"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.14"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUbrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.14/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUb7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.14/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclrrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUcLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUcbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUcrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.0/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUc7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.0/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcluLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUdLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUdbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.10"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.10"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUdrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.10/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUd7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.10/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclwrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUeLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUebJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUerJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUe7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqclzLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUfLJEEeeVgKgW_ZuPjw" name="MOVE_REF_COMBI_Timing_FROM_Element_(distribution)_TO_Element_(distribution)" editRuleName="MOVE_REF_COMBI_Timing_FROM_Element_(distribution)_TO_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUfbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15/@distribution.1"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.27/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUfrJEEeeVgKgW_ZuPjw" formalName="OldSource">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUf7JEEeeVgKgW_ZuPjw" formalName="NewSource">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.27"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.27"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_Hqcl1rJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUgLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUgbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.1"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUgrJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.1/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUg7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.1/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_Hqcl5LJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUhLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUhbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.5"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.5"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUhrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.5/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUh7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.5/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_Hqcl7rJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUiLJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUibJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUirJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUi7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_Hqcl-LJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUjLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUjbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUjrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUj7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.3/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmArJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUkLJEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUkbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUkrJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUk7JEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmDLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUlLJEEeeVgKgW_ZuPjw" name="SET_ATTRIBUTE_Timing_MinDeviation" editRuleName="SET_ATTRIBUTE_Timing_MinDeviation">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUlbJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.6/@distribution.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.6/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_HrgUlrJEEeeVgKgW_ZuPjw" formalName="MinDeviation" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmFrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUl7JEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUmLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUmbJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUmrJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.0/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmHLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUm7JEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUnLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.10"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.10"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUnbJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.10/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUnrJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.10/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmJrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUn7JEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUoLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.14"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.14"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUobJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.14/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUorJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.14/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmMLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUo7JEEeeVgKgW_ZuPjw" name="DELETE_Timing_IN_Element_(distribution)" editRuleName="DELETE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUpLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUpbJEEeeVgKgW_ZuPjw" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUprJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmOrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUp7JEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUqLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.17"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.17"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUqbJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.17/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUqrJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.17/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmRLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUq7JEEeeVgKgW_ZuPjw" name="MOVE_REF_COMBI_Timing_FROM_Element_(distribution)_TO_Element_(distribution)" editRuleName="MOVE_REF_COMBI_Timing_FROM_Element_(distribution)_TO_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUrLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.11/@distribution.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUrbJEEeeVgKgW_ZuPjw" formalName="OldSource">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.11"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.11"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_HrgUrrJEEeeVgKgW_ZuPjw" formalName="NewSource">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.15"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.15"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmTrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_HrgUr7JEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7QLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.9"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.9"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7QbJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.9/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7QrJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.9/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmXLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Hrg7Q7JEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7RLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.18"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.18"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7RbJEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.18/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7RrJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.18/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmZrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Hrg7R7JEEeeVgKgW_ZuPjw" name="SET_ATTRIBUTE_Timing_Variance" editRuleName="SET_ATTRIBUTE_Timing_Variance">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7SLJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.6/@distribution.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.6/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Hrg7SbJEEeeVgKgW_ZuPjw" formalName="Variance" actual="340"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmcLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Hrg7SrJEEeeVgKgW_ZuPjw" name="SET_ATTRIBUTE_Timing_Variance" editRuleName="SET_ATTRIBUTE_Timing_Variance">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7S7JEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.1/@distribution.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.1/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Hrg7TLJEEeeVgKgW_ZuPjw" formalName="Variance" actual="31"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmdrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Hrg7TbJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7TrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.8"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.8"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7T7JEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.8/@distribution.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7ULJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.8/@distribution.0/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmfLJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Hrg7UbJEEeeVgKgW_ZuPjw" name="CREATE_Timing_IN_Element_(distribution)" editRuleName="CREATE_Timing_IN_Element_(distribution)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7UrJEEeeVgKgW_ZuPjw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3.petrinet#//@elements.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7U7JEEeeVgKgW_ZuPjw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2/@distribution.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Hrg7VLJEEeeVgKgW_ZuPjw" formalName="Child">
+      <actualB href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario5.petrinet#//@elements.2/@distribution.1/@config"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_HqcmhrJEEeeVgKgW_ZuPjw"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/petirnets/PPUScenario3_x_PPUScenario5_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_Hqb9MLJEEeeVgKgW_ZuPjw"/>
+</asymmetric:AsymmetricDifference>

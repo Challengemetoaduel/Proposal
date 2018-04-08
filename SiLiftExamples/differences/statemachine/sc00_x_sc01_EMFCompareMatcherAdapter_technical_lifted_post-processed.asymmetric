@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_QSzMsKqaEeeyRYqmvH3qig" uriOriginModel="platform:/resource/ModelsForFASE/models/statemachine/sc00.statemachine" uriChangedModel="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine">
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/statemachine/sc00_x_sc01_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_QQqesKqaEeeyRYqmvH3qig"/>
+</asymmetric:AsymmetricDifference>

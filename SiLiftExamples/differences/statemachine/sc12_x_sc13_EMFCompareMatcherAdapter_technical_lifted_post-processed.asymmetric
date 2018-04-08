@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_ppnD8KqaEeeyRYqmvH3qig" uriOriginModel="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine" uriChangedModel="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine">
+  <operationInvocations xmi:id="_ppnD8aqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD8qqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.7/@transitions.1/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.7/@transitions.1/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnD86qaEeeyRYqmvH3qig" formalName="Expression" actual="[after(t#5s)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVIqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnD9KqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD9aqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.14/@transitions.15/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.14/@transitions.15/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnD9qqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(T#6300ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVKKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnD96qaEeeyRYqmvH3qig" name="CREATE_Guard_IN_Transition_(guard)" editRuleName="CREATE_Guard_IN_Transition_(guard)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD-KqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.10/@transitions.1"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.10/@transitions.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD-aqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.10/@transitions.1/@guard"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVLqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnD-qqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD-6qaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.14/@transitions.18/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.14/@transitions.18/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnD_KqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(T#3900ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVNqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnD_aqaEeeyRYqmvH3qig" name="DELETE_Guard_IN_Transition_(guard)" editRuleName="DELETE_Guard_IN_Transition_(guard)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD_qqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.10/@transitions.1"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.10/@transitions.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnD_6qaEeeyRYqmvH3qig" formalName="ToBeDeleted">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.10/@transitions.1/@guard"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVPKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnEAKqaEeeyRYqmvH3qig" name="CREATE_TransitionAction_IN_Transition_(action)" editRuleName="CREATE_TransitionAction_IN_Transition_(action)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEAaqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.8/@transitions.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.8/@transitions.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEAqqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.8/@transitions.2/@action"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVRKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnEA6qaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEBKqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.14/@transitions.16/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.14/@transitions.16/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnEBaqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(T#3400ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVTKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnEBqqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEB6qaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.8/@transitions.1/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.8/@transitions.1/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnECKqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(t#5s)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVUqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnECaqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnECqqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.7/@transitions.3/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.7/@transitions.3/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnEC6qaEeeyRYqmvH3qig" formalName="Expression" actual="[after(t#100ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVWKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnEDKqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEDaqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.8/@transitions.3/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.8/@transitions.3/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnEDqqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(t#100ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVXqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_ppnED6qaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_ppnEEKqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc12.statemachine#//@subStateMachines.14/@transitions.19/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc13.statemachine#//@subStateMachines.14/@transitions.19/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_ppnEEaqaEeeyRYqmvH3qig" formalName="Expression" actual="[after(T#1200ms)]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVZKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/statemachine/sc12_x_sc13_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pnpVEKqaEeeyRYqmvH3qig"/>
+</asymmetric:AsymmetricDifference>

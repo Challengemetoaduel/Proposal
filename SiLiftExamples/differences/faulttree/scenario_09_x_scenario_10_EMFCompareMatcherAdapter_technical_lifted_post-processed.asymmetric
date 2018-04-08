@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_vQYxIKqYEeenrsmWTApxnw" uriOriginModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree" uriChangedModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree">
+  <operationInvocations xmi:id="_vQYxIaqYEeenrsmWTApxnw" name="CREATE_FailureInstance_IN_Root_(failure_instance)" editRuleName="CREATE_FailureInstance_IN_Root_(failure_instance)" incoming="_vQYyA6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxIqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxI6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@failure_type.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_type.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxJKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyYqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.7"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO91r6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxJaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyGaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxJqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxJ6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.6"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxKKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyXaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.26"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO91u6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxKaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYySaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxKqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxK6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxLKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyWKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.32"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO91x6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxLaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyIaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxLqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxL6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxMKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYybaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.28"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO9106qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxMaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyHaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxMqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxM6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.6"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxNKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyZKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.22"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO9136qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxNaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyR6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxNqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxN6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.6"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxOKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyeKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.25"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO9166qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxOaqYEeenrsmWTApxnw" name="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" editRuleName="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" outgoing="_vQYyPaqYEeenrsmWTApxnw _vQYyRaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxOqqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyXKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.29"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxO6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyVqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.19"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO9196qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxPKqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYx76qYEeenrsmWTApxnw _vQYyP6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxPaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxPqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyU6qYEeenrsmWTApxnw _vQYyV6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.28"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxP6qYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO91_aqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxQKqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyEaqYEeenrsmWTApxnw _vQYyJ6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxQaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxQqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyUKqYEeenrsmWTApxnw _vQYyUqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.26"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxQ6qYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92BaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxRKqYEeenrsmWTApxnw" name="CREATE_OR_IN_Root_(gate)" editRuleName="CREATE_OR_IN_Root_(gate)" incoming="_vQYx56qYEeenrsmWTApxnw _vQYx66qYEeenrsmWTApxnw _vQYx-6qYEeenrsmWTApxnw _vQYyM6qYEeenrsmWTApxnw _vQYyNaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxRaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxRqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyaKqYEeenrsmWTApxnw _vQYya6qYEeenrsmWTApxnw _vQYybKqYEeenrsmWTApxnw _vQYycqqYEeenrsmWTApxnw _vQYye6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxR6qYEeenrsmWTApxnw" formalName="Id" actual="9"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92DaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxSKqYEeenrsmWTApxnw" name="SET_REFERENCE_Gate_(outputEvent)_TGT_Event" editRuleName="SET_REFERENCE_Gate_(outputEvent)_TGT_Event" outgoing="_vQYyB6qYEeenrsmWTApxnw _vQYyCaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxSaqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyUaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxSqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyWaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92FaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxS6qYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyG6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxTKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxTaqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxTqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyeqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.31"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92G6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxT6qYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyC6qYEeenrsmWTApxnw _vQYyGaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxUKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyfqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.27"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxUaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyXaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.26"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92J6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxUqqYEeenrsmWTApxnw" name="SET_REFERENCE_FailureInstance_(event)_TGT_IntermediateEvent" editRuleName="SET_REFERENCE_FailureInstance_(event)_TGT_IntermediateEvent" outgoing="_vQYx_6qYEeenrsmWTApxnw _vQYyA6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxU6qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyYqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxVKqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyZ6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92LaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxVaqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYx86qYEeenrsmWTApxnw _vQYyF6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxVqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxV6qYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyWqqYEeenrsmWTApxnw _vQYydqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.29"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxWKqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92M6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxWaqYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyL6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxWqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@gate.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxW6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyX6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.18"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92O6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxXKqYEeenrsmWTApxnw" name="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" editRuleName="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" outgoing="_vQYyQaqYEeenrsmWTApxnw _vQYySaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxXaqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyWKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.32"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxXqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyaaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.30"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92Q6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxX6qYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyFaqYEeenrsmWTApxnw _vQYyI6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxYKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyYKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.22"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxYaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYydKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.30"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92SaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxYqqYEeenrsmWTApxnw" name="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" editRuleName="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" outgoing="_vQYyQ6qYEeenrsmWTApxnw _vQYyS6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxY6qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyfKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.23"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxZKqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyd6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.24"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92T6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxZaqYEeenrsmWTApxnw" name="SET_REFERENCE_FailureInstance_(event)_TGT_IntermediateEvent" editRuleName="SET_REFERENCE_FailureInstance_(event)_TGT_IntermediateEvent" outgoing="_vQYyAaqYEeenrsmWTApxnw _vQYyBaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxZqqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyYaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.8"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxZ6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyeaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92VaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxaKqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYx9aqYEeenrsmWTApxnw _vQYyD6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxaaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxaqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyW6qYEeenrsmWTApxnw _vQYydaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.25"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxa6qYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92W6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxbKqYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyLaqYEeenrsmWTApxnw _vQYyN6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxbaqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyVKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxbqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyT6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.23"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92Y6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxb6qYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyC6qYEeenrsmWTApxnw _vQYyMaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxcKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxcaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyTqqYEeenrsmWTApxnw _vQYyfqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.27"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxcqqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92aaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxc6qYEeenrsmWTApxnw" name="CREATE_IntermediateEvent_IN_Root_(event)" editRuleName="CREATE_IntermediateEvent_IN_Root_(event)" incoming="_vQYx-aqYEeenrsmWTApxnw _vQYyAaqYEeenrsmWTApxnw _vQYyB6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxdKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxdaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyWaqYEeenrsmWTApxnw _vQYyZaqYEeenrsmWTApxnw _vQYyeaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxdqqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92caqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxd6qYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyE6qYEeenrsmWTApxnw _vQYyIaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxeKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyc6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.18"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxeaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYybaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.28"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92eaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxeqqYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyDaqYEeenrsmWTApxnw _vQYyG6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxe6qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyZqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.23"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxfKqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyeqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.31"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92f6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxfaqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYx96qYEeenrsmWTApxnw _vQYyQaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxfqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxf6qYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyaaqYEeenrsmWTApxnw _vQYyf6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.30"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxgKqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92haqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxgaqYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyF6qYEeenrsmWTApxnw _vQYyJaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxgqqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyWqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.29"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxg6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyfaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.27"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92jaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxhKqYEeenrsmWTApxnw" name="CREATE_OR_IN_Root_(gate)" editRuleName="CREATE_OR_IN_Root_(gate)" incoming="_vQYx5aqYEeenrsmWTApxnw _vQYx6aqYEeenrsmWTApxnw _vQYx7aqYEeenrsmWTApxnw _vQYyCaqYEeenrsmWTApxnw _vQYyN6qYEeenrsmWTApxnw _vQYyOaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxhaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxhqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyTaqYEeenrsmWTApxnw _vQYyUaqYEeenrsmWTApxnw _vQYyVKqYEeenrsmWTApxnw _vQYyb6qYEeenrsmWTApxnw _vQYycKqYEeenrsmWTApxnw _vQYygKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxh6qYEeenrsmWTApxnw" formalName="Id" actual="10"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92k6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxiKqYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyO6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxiaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@gate.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxiqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyXqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92m6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxi6qYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyKaqYEeenrsmWTApxnw _vQYyQ6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxjKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxjaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyY6qYEeenrsmWTApxnw _vQYyd6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.24"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxjqqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92o6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxj6qYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyKaqYEeenrsmWTApxnw _vQYyNaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxkKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYye6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxkaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyY6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.24"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92q6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxkqqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyE6qYEeenrsmWTApxnw _vQYyL6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxk6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxlKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyX6qYEeenrsmWTApxnw _vQYyc6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.18"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxlaqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92saqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxlqqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyRaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxl6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxmKqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxmaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyXKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.29"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92uaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxmqqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyK6qYEeenrsmWTApxnw _vQYyPaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxm6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxnKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyVqqYEeenrsmWTApxnw _vQYyaqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.19"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxnaqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92xaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxnqqYEeenrsmWTApxnw" name="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" editRuleName="SET_REFERENCE_ErrorInstance_(error)_TGT_BasicEvent" outgoing="_vQYyP6qYEeenrsmWTApxnw _vQYyR6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxn6qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyeKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.25"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxoKqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyV6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.28"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO92zaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxoaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyI6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxoqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxo6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxpKqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYydKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.30"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO9206qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxpaqYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyK6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxpqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@gate.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxp6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyaqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.19"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-b6aqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxqKqYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYx8aqYEeenrsmWTApxnw _vQYyFaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxqaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxqqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyYKqYEeenrsmWTApxnw _vQYybqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.22"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxq6qYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-b8aqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxrKqYEeenrsmWTApxnw" name="CREATE_IntermediateEvent_IN_Root_(event)" editRuleName="CREATE_IntermediateEvent_IN_Root_(event)" incoming="_vQYx_aqYEeenrsmWTApxnw _vQYx_6qYEeenrsmWTApxnw _vQYyO6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxraqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxrqqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyVaqYEeenrsmWTApxnw _vQYyXqqYEeenrsmWTApxnw _vQYyZ6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYxr6qYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-b-aqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxsKqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx7aqYEeenrsmWTApxnw _vQYx96qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxsaqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyf6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.30"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxsqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYycKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cAaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxs6qYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyEaqYEeenrsmWTApxnw _vQYyH6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxtKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyUKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.26"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxtaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYycaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.24"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cB6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxtqqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyJaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxt6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxuKqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxuaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyfaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.27"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cDaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxuqqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx6aqYEeenrsmWTApxnw _vQYx86qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxu6qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYydqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.29"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxvKqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyb6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cGaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxvaqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(inputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(inputGate)_TGT_Gate" outgoing="_vQYx-6qYEeenrsmWTApxnw _vQYx_aqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxvqqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyVaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxv6qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYya6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cH6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxwKqYEeenrsmWTApxnw" name="CREATE_FailureInstance_IN_Root_(failure_instance)" editRuleName="CREATE_FailureInstance_IN_Root_(failure_instance)" incoming="_vQYyBaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxwaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxwqqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@failure_type.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_type.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxw6qYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyYaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.8"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cJaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxxKqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx5aqYEeenrsmWTApxnw _vQYx76qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxxaqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyU6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.28"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxxqqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyTaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cMaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxx6qYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyJ6qYEeenrsmWTApxnw _vQYyM6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxyKqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyaKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxyaqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyUqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.26"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cN6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxyqqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyH6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxy6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxzKqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxzaqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYycaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.24"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cPaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYxzqqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)" incoming="_vQYyS6qYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYxz6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx0KqYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@error_type.6"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_type.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx0aqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyfKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.23"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cSaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx0qqYEeenrsmWTApxnw" name="ADD_BasicEvent_(instance)_TGT_ErrorInstance" editRuleName="ADD_BasicEvent_(instance)_TGT_ErrorInstance" outgoing="_vQYyD6qYEeenrsmWTApxnw _vQYyHaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx06qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyW6qYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.25"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx1KqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyZKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.22"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cVaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx1aqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx56qYEeenrsmWTApxnw _vQYx8aqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx1qqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYybqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.22"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx16qYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYycqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cW6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx2KqYEeenrsmWTApxnw" name="ADD_Gate_(inputEvents)_TGT_Event" editRuleName="ADD_Gate_(inputEvents)_TGT_Event" outgoing="_vQYyMaqYEeenrsmWTApxnw _vQYyOaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx2aqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYygKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx2qqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYyTqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.27"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cYaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx26qYEeenrsmWTApxnw" name="CREATE_BasicEvent_IN_Root_(event)" editRuleName="CREATE_BasicEvent_IN_Root_(event)" incoming="_vQYyDaqYEeenrsmWTApxnw _vQYyLaqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx3KqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx3aqYEeenrsmWTApxnw" formalName="New" outgoing="_vQYyT6qYEeenrsmWTApxnw _vQYyZqqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.23"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_vQYx3qqYEeenrsmWTApxnw" formalName="Id" actual="0"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cZ6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx36qYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx66qYEeenrsmWTApxnw _vQYx9aqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx4KqYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYydaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.25"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx4aqYEeenrsmWTApxnw" formalName="NewTarget" incoming="_vQYybKqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cb6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_vQYx4qqYEeenrsmWTApxnw" name="SET_REFERENCE_Event_(outputGate)_TGT_Gate" editRuleName="SET_REFERENCE_Event_(outputGate)_TGT_Gate" outgoing="_vQYx-aqYEeenrsmWTApxnw">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx46qYEeenrsmWTApxnw" formalName="selectedEObject" incoming="_vQYyZaqYEeenrsmWTApxnw">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_vQYx5KqYEeenrsmWTApxnw" formalName="NewTarget">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09.faulttree#/0/@gate.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.3"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO-cdaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <depContainers xmi:id="_vQYx5aqYEeenrsmWTApxnw" source="_vQYxxKqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx5qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx56qYEeenrsmWTApxnw" source="_vQYx1aqYEeenrsmWTApxnw" target="_vQYxRKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx6KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx6aqYEeenrsmWTApxnw" source="_vQYxuqqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx6qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx66qYEeenrsmWTApxnw" source="_vQYx36qYEeenrsmWTApxnw" target="_vQYxRKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx7KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx7aqYEeenrsmWTApxnw" source="_vQYxsKqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx7qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx76qYEeenrsmWTApxnw" source="_vQYxxKqYEeenrsmWTApxnw" target="_vQYxPKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx8KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.28"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx8aqYEeenrsmWTApxnw" source="_vQYx1aqYEeenrsmWTApxnw" target="_vQYxqKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx8qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.22"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx86qYEeenrsmWTApxnw" source="_vQYxuqqYEeenrsmWTApxnw" target="_vQYxVaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx9KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.29"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx9aqYEeenrsmWTApxnw" source="_vQYx36qYEeenrsmWTApxnw" target="_vQYxaKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx9qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.25"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx96qYEeenrsmWTApxnw" source="_vQYxsKqYEeenrsmWTApxnw" target="_vQYxfaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx-KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.30"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx-aqYEeenrsmWTApxnw" source="_vQYx4qqYEeenrsmWTApxnw" target="_vQYxc6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx-qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx-6qYEeenrsmWTApxnw" source="_vQYxvaqYEeenrsmWTApxnw" target="_vQYxRKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx_KqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx_aqYEeenrsmWTApxnw" source="_vQYxvaqYEeenrsmWTApxnw" target="_vQYxrKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYx_qqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYx_6qYEeenrsmWTApxnw" source="_vQYxUqqYEeenrsmWTApxnw" target="_vQYxrKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyAKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyAaqYEeenrsmWTApxnw" source="_vQYxZaqYEeenrsmWTApxnw" target="_vQYxc6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyAqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyA6qYEeenrsmWTApxnw" source="_vQYxUqqYEeenrsmWTApxnw" target="_vQYxIaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyBKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyBaqYEeenrsmWTApxnw" source="_vQYxZaqYEeenrsmWTApxnw" target="_vQYxwKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyBqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@failure_instance.8"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyB6qYEeenrsmWTApxnw" source="_vQYxSKqYEeenrsmWTApxnw" target="_vQYxc6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyCKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.21"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyCaqYEeenrsmWTApxnw" source="_vQYxSKqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyCqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyC6qYEeenrsmWTApxnw" source="_vQYxT6qYEeenrsmWTApxnw" target="_vQYxb6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyDKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.27"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyDaqYEeenrsmWTApxnw" source="_vQYxeqqYEeenrsmWTApxnw" target="_vQYx26qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyDqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.23"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyD6qYEeenrsmWTApxnw" source="_vQYx0qqYEeenrsmWTApxnw" target="_vQYxaKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyEKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.25"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyEaqYEeenrsmWTApxnw" source="_vQYxs6qYEeenrsmWTApxnw" target="_vQYxQKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyEqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.26"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyE6qYEeenrsmWTApxnw" source="_vQYxd6qYEeenrsmWTApxnw" target="_vQYxkqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyFKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.18"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyFaqYEeenrsmWTApxnw" source="_vQYxX6qYEeenrsmWTApxnw" target="_vQYxqKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyFqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.22"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyF6qYEeenrsmWTApxnw" source="_vQYxgaqYEeenrsmWTApxnw" target="_vQYxVaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyGKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.29"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyGaqYEeenrsmWTApxnw" source="_vQYxT6qYEeenrsmWTApxnw" target="_vQYxJaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyGqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.26"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyG6qYEeenrsmWTApxnw" source="_vQYxeqqYEeenrsmWTApxnw" target="_vQYxS6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyHKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.31"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyHaqYEeenrsmWTApxnw" source="_vQYx0qqYEeenrsmWTApxnw" target="_vQYxMaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyHqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.22"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyH6qYEeenrsmWTApxnw" source="_vQYxs6qYEeenrsmWTApxnw" target="_vQYxyqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyIKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.24"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyIaqYEeenrsmWTApxnw" source="_vQYxd6qYEeenrsmWTApxnw" target="_vQYxLaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyIqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.28"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyI6qYEeenrsmWTApxnw" source="_vQYxX6qYEeenrsmWTApxnw" target="_vQYxoaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyJKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.30"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyJaqYEeenrsmWTApxnw" source="_vQYxgaqYEeenrsmWTApxnw" target="_vQYxtqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyJqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.27"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyJ6qYEeenrsmWTApxnw" source="_vQYxx6qYEeenrsmWTApxnw" target="_vQYxQKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyKKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.26"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyKaqYEeenrsmWTApxnw" source="_vQYxj6qYEeenrsmWTApxnw" target="_vQYxi6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyKqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.24"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyK6qYEeenrsmWTApxnw" source="_vQYxpaqYEeenrsmWTApxnw" target="_vQYxmqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyLKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.19"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyLaqYEeenrsmWTApxnw" source="_vQYxbKqYEeenrsmWTApxnw" target="_vQYx26qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyLqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.23"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyL6qYEeenrsmWTApxnw" source="_vQYxWaqYEeenrsmWTApxnw" target="_vQYxkqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyMKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.18"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyMaqYEeenrsmWTApxnw" source="_vQYx2KqYEeenrsmWTApxnw" target="_vQYxb6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyMqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.27"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyM6qYEeenrsmWTApxnw" source="_vQYxx6qYEeenrsmWTApxnw" target="_vQYxRKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyNKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyNaqYEeenrsmWTApxnw" source="_vQYxj6qYEeenrsmWTApxnw" target="_vQYxRKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyNqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.6"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyN6qYEeenrsmWTApxnw" source="_vQYxbKqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyOKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyOaqYEeenrsmWTApxnw" source="_vQYx2KqYEeenrsmWTApxnw" target="_vQYxhKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyOqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@gate.7"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyO6qYEeenrsmWTApxnw" source="_vQYxiKqYEeenrsmWTApxnw" target="_vQYxrKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyPKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.20"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyPaqYEeenrsmWTApxnw" source="_vQYxOaqYEeenrsmWTApxnw" target="_vQYxmqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyPqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.19"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyP6qYEeenrsmWTApxnw" source="_vQYxnqqYEeenrsmWTApxnw" target="_vQYxPKqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyQKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.28"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyQaqYEeenrsmWTApxnw" source="_vQYxXKqYEeenrsmWTApxnw" target="_vQYxfaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyQqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.30"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyQ6qYEeenrsmWTApxnw" source="_vQYxYqqYEeenrsmWTApxnw" target="_vQYxi6qYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyRKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@event.24"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyRaqYEeenrsmWTApxnw" source="_vQYxOaqYEeenrsmWTApxnw" target="_vQYxlqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyRqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.29"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyR6qYEeenrsmWTApxnw" source="_vQYxnqqYEeenrsmWTApxnw" target="_vQYxNaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYySKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.25"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYySaqYEeenrsmWTApxnw" source="_vQYxXKqYEeenrsmWTApxnw" target="_vQYxKaqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYySqqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.32"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_vQYyS6qYEeenrsmWTApxnw" source="_vQYxYqqYEeenrsmWTApxnw" target="_vQYxzqqYEeenrsmWTApxnw">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_vQYyTKqYEeenrsmWTApxnw" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/faulttree/scenario_10.faulttree#/0/@error_instance.23"/>
+    </dependencies>
+  </depContainers>
+  <parameterMappings xmi:id="_vQYyTaqYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYxxqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyTqqYEeenrsmWTApxnw" source="_vQYxcaqYEeenrsmWTApxnw" target="_vQYx2qqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyT6qYEeenrsmWTApxnw" source="_vQYx3aqYEeenrsmWTApxnw" target="_vQYxbqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyUKqYEeenrsmWTApxnw" source="_vQYxQqqYEeenrsmWTApxnw" target="_vQYxtKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyUaqYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYxSaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyUqqYEeenrsmWTApxnw" source="_vQYxQqqYEeenrsmWTApxnw" target="_vQYxyaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyU6qYEeenrsmWTApxnw" source="_vQYxPqqYEeenrsmWTApxnw" target="_vQYxxaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyVKqYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYxbaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyVaqYEeenrsmWTApxnw" source="_vQYxrqqYEeenrsmWTApxnw" target="_vQYxvqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyVqqYEeenrsmWTApxnw" source="_vQYxnKqYEeenrsmWTApxnw" target="_vQYxO6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyV6qYEeenrsmWTApxnw" source="_vQYxPqqYEeenrsmWTApxnw" target="_vQYxoKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyWKqYEeenrsmWTApxnw" source="_vQYxLKqYEeenrsmWTApxnw" target="_vQYxXaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyWaqYEeenrsmWTApxnw" source="_vQYxdaqYEeenrsmWTApxnw" target="_vQYxSqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyWqqYEeenrsmWTApxnw" source="_vQYxV6qYEeenrsmWTApxnw" target="_vQYxgqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyW6qYEeenrsmWTApxnw" source="_vQYxaqqYEeenrsmWTApxnw" target="_vQYx06qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyXKqYEeenrsmWTApxnw" source="_vQYxmaqYEeenrsmWTApxnw" target="_vQYxOqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyXaqYEeenrsmWTApxnw" source="_vQYxKKqYEeenrsmWTApxnw" target="_vQYxUaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyXqqYEeenrsmWTApxnw" source="_vQYxrqqYEeenrsmWTApxnw" target="_vQYxiqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyX6qYEeenrsmWTApxnw" source="_vQYxlKqYEeenrsmWTApxnw" target="_vQYxW6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyYKqYEeenrsmWTApxnw" source="_vQYxqqqYEeenrsmWTApxnw" target="_vQYxYKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyYaqYEeenrsmWTApxnw" source="_vQYxw6qYEeenrsmWTApxnw" target="_vQYxZqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyYqqYEeenrsmWTApxnw" source="_vQYxJKqYEeenrsmWTApxnw" target="_vQYxU6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyY6qYEeenrsmWTApxnw" source="_vQYxjaqYEeenrsmWTApxnw" target="_vQYxkaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyZKqYEeenrsmWTApxnw" source="_vQYxNKqYEeenrsmWTApxnw" target="_vQYx1KqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyZaqYEeenrsmWTApxnw" source="_vQYxdaqYEeenrsmWTApxnw" target="_vQYx46qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyZqqYEeenrsmWTApxnw" source="_vQYx3aqYEeenrsmWTApxnw" target="_vQYxe6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyZ6qYEeenrsmWTApxnw" source="_vQYxrqqYEeenrsmWTApxnw" target="_vQYxVKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyaKqYEeenrsmWTApxnw" source="_vQYxRqqYEeenrsmWTApxnw" target="_vQYxyKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyaaqYEeenrsmWTApxnw" source="_vQYxf6qYEeenrsmWTApxnw" target="_vQYxXqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyaqqYEeenrsmWTApxnw" source="_vQYxnKqYEeenrsmWTApxnw" target="_vQYxp6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYya6qYEeenrsmWTApxnw" source="_vQYxRqqYEeenrsmWTApxnw" target="_vQYxv6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYybKqYEeenrsmWTApxnw" source="_vQYxRqqYEeenrsmWTApxnw" target="_vQYx4aqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYybaqYEeenrsmWTApxnw" source="_vQYxMKqYEeenrsmWTApxnw" target="_vQYxeaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYybqqYEeenrsmWTApxnw" source="_vQYxqqqYEeenrsmWTApxnw" target="_vQYx1qqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyb6qYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYxvKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYycKqYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYxsqqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYycaqYEeenrsmWTApxnw" source="_vQYxzaqYEeenrsmWTApxnw" target="_vQYxtaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYycqqYEeenrsmWTApxnw" source="_vQYxRqqYEeenrsmWTApxnw" target="_vQYx16qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyc6qYEeenrsmWTApxnw" source="_vQYxlKqYEeenrsmWTApxnw" target="_vQYxeKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYydKqYEeenrsmWTApxnw" source="_vQYxpKqYEeenrsmWTApxnw" target="_vQYxYaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYydaqYEeenrsmWTApxnw" source="_vQYxaqqYEeenrsmWTApxnw" target="_vQYx4KqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYydqqYEeenrsmWTApxnw" source="_vQYxV6qYEeenrsmWTApxnw" target="_vQYxu6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyd6qYEeenrsmWTApxnw" source="_vQYxjaqYEeenrsmWTApxnw" target="_vQYxZKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyeKqYEeenrsmWTApxnw" source="_vQYxOKqYEeenrsmWTApxnw" target="_vQYxn6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyeaqYEeenrsmWTApxnw" source="_vQYxdaqYEeenrsmWTApxnw" target="_vQYxZ6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyeqqYEeenrsmWTApxnw" source="_vQYxTqqYEeenrsmWTApxnw" target="_vQYxfKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYye6qYEeenrsmWTApxnw" source="_vQYxRqqYEeenrsmWTApxnw" target="_vQYxkKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyfKqYEeenrsmWTApxnw" source="_vQYx0aqYEeenrsmWTApxnw" target="_vQYxY6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyfaqYEeenrsmWTApxnw" source="_vQYxuaqYEeenrsmWTApxnw" target="_vQYxg6qYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyfqqYEeenrsmWTApxnw" source="_vQYxcaqYEeenrsmWTApxnw" target="_vQYxUKqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYyf6qYEeenrsmWTApxnw" source="_vQYxf6qYEeenrsmWTApxnw" target="_vQYxsaqYEeenrsmWTApxnw"/>
+  <parameterMappings xmi:id="_vQYygKqYEeenrsmWTApxnw" source="_vQYxhqqYEeenrsmWTApxnw" target="_vQYx2aqYEeenrsmWTApxnw"/>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/faulttree/scenario_09_x_scenario_10_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_vO900KqYEeenrsmWTApxnw"/>
+</asymmetric:AsymmetricDifference>

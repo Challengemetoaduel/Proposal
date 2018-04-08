@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_pjanQKqYEeenrsmWTApxnw" uriOriginModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree" uriChangedModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree">
+  <operationInvocations xmi:id="_pjanQaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_pjanQqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_pjanQ6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_type.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0/@error_type.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_pjanRKqYEeenrsmWTApxnw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0/@error_instance.15"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04_x_scenario_07_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pjHsWaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04_x_scenario_07_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_pjHsUKqYEeenrsmWTApxnw"/>
+</asymmetric:AsymmetricDifference>

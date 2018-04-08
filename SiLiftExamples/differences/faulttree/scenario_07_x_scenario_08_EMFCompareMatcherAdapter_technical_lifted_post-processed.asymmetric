@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_sb4pMKqYEeenrsmWTApxnw" uriOriginModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree" uriChangedModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree">
+  <operationInvocations xmi:id="_sb4pMaqYEeenrsmWTApxnw" name="CREATE_FailureInstance_IN_Root_(failure_instance)" editRuleName="CREATE_FailureInstance_IN_Root_(failure_instance)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pMqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pM6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0/@failure_type.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@failure_type.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pNKqYEeenrsmWTApxnw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@failure_instance.5"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07_x_scenario_08_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_sbQ-RKqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_sb4pNaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pNqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pN6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0/@error_type.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_type.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pOKqYEeenrsmWTApxnw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_instance.17"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07_x_scenario_08_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_sbQ-UKqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_sb4pOaqYEeenrsmWTApxnw" name="CREATE_ErrorType_IN_Root_(error_type)" editRuleName="CREATE_ErrorType_IN_Root_(error_type)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pOqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pO6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_instance.18"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pPKqYEeenrsmWTApxnw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_type.5"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07_x_scenario_08_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_sbQ-XKqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_sb4pPaqYEeenrsmWTApxnw" name="CREATE_ErrorInstance_IN_Root_(error_instance)" editRuleName="CREATE_ErrorInstance_IN_Root_(error_instance)">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pPqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pP6qYEeenrsmWTApxnw" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07.faulttree#/0/@error_type.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_type.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_sb4pQKqYEeenrsmWTApxnw" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_08.faulttree#/0/@error_instance.16"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07_x_scenario_08_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_sbQ-ZqqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/faulttree/scenario_07_x_scenario_08_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_sbQ-IKqYEeenrsmWTApxnw"/>
+</asymmetric:AsymmetricDifference>

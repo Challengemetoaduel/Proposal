@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_y4ncEKqYEeenrsmWTApxnw" uriOriginModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_13.faulttree" uriChangedModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_14.faulttree">
+  <operationInvocations xmi:id="_y4ncEaqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_y4ncEqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_13.faulttree#/0/@error_instance.27"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_14.faulttree#/0/@error_instance.27"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_y4ncE6qYEeenrsmWTApxnw" formalName="Name" actual="cranePotentiometerIncrementalEncoderError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_13_x_scenario_14_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_y4ECc6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_y4ncFKqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_y4ncFaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_13.faulttree#/0/@event.25"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_14.faulttree#/0/@event.25"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_y4ncFqqYEeenrsmWTApxnw" formalName="Name" actual="craneIncrementalEncoderError occurs"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_13_x_scenario_14_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_y4ECeaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/faulttree/scenario_13_x_scenario_14_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_y4ECcKqYEeenrsmWTApxnw"/>
+</asymmetric:AsymmetricDifference>

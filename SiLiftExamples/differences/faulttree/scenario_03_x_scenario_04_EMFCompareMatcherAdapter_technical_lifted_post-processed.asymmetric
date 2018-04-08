@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_jhXlQKqYEeenrsmWTApxnw" uriOriginModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree" uriChangedModel="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree">
+  <operationInvocations xmi:id="_jhXlQaqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlQqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@event.7"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@event.7"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlQ6qYEeenrsmWTApxnw" formalName="Name" actual="toSlideSInductiveError occurs "/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgole6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlRKqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlRaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@event.5"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@event.5"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlRqqYEeenrsmWTApxnw" formalName="Name" actual="maxLeftSInductiveError occurs"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolgaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlR6qYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlSKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@error_instance.3"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_instance.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlSaqYEeenrsmWTApxnw" formalName="Name" actual="toSlideSInductiveError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolh6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlSqqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlS6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@error_instance.1"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_instance.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlTKqYEeenrsmWTApxnw" formalName="Name" actual="maxLeftSInductiveError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgoljaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlTaqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlTqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@error_instance.2"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_instance.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlT6qYEeenrsmWTApxnw" formalName="Name" actual="maxRightSInductiveError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolk6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlUKqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlUaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@event.8"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@event.8"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlUqqYEeenrsmWTApxnw" formalName="Name" actual="toStackSInductiveError occurs "/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolmaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlU6qYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlVKqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@event.6"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@event.6"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlVaqYEeenrsmWTApxnw" formalName="Name" actual="maxRightSInductiveError occurs "/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgoln6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlVqqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlV6qYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@error_instance.4"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_instance.4"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlWKqYEeenrsmWTApxnw" formalName="Name" actual="toStackSInductiveError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolpaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlWaqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_BasicEvent_Name" editRuleName="SET_ATTRIBUTE_BasicEvent_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlWqqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@event.12"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@event.9"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlW6qYEeenrsmWTApxnw" formalName="Name" actual="toStampSInductiveError occurs"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolq6qYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_jhXlXKqYEeenrsmWTApxnw" name="SET_ATTRIBUTE_ErrorInstance_Name" editRuleName="SET_ATTRIBUTE_ErrorInstance_Name">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_jhXlXaqYEeenrsmWTApxnw" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03.faulttree#/0/@error_instance.10"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/faulttree/scenario_04.faulttree#/0/@error_instance.5"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_jhXlXqqYEeenrsmWTApxnw" formalName="Name" actual="toStampSInductiveError"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolsaqYEeenrsmWTApxnw"/>
+  </operationInvocations>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/faulttree/scenario_03_x_scenario_04_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_jgolcKqYEeenrsmWTApxnw"/>
+</asymmetric:AsymmetricDifference>

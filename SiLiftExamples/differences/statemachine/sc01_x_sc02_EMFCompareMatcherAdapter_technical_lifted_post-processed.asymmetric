@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ASCII"?>
+<asymmetric:AsymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asymmetric="http://www.sidiff.org/difference/asymmetric/1.0" xmi:id="_Sp7cIKqaEeeyRYqmvH3qig" uriOriginModel="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine" uriChangedModel="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine">
+  <operationInvocations xmi:id="_Sp7cIaqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Transition_Description" editRuleName="SET_ATTRIBUTE_Transition_Description">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cIqqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Sp7cI6qaEeeyRYqmvH3qig" formalName="Description" actual="ExtractWP->MetallicWPDetected"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlFKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cJKqaEeeyRYqmvH3qig" name="CREATE_State_IN_CompositeState_(subVertexes)" editRuleName="CREATE_State_IN_CompositeState_(subVertexes)" incoming="_Sp7cVKqaEeeyRYqmvH3qig _Sp7cYKqaEeeyRYqmvH3qig _Sp7cZqqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cJaqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#80"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#80"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cJqqaEeeyRYqmvH3qig" formalName="New" outgoing="_Sp7caqqaEeeyRYqmvH3qig _Sp7cb6qaEeeyRYqmvH3qig _Sp7ccKqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Sp7cJ6qaEeeyRYqmvH3qig" formalName="Id" actual="86"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlGqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cKKqaEeeyRYqmvH3qig" name="CREATE_Transition_IN_State_(internalTransitions)" editRuleName="CREATE_Transition_IN_State_(internalTransitions)" outgoing="_Sp7cYqqaEeeyRYqmvH3qig" incoming="_Sp7cWKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cKaqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#80"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#80"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cKqqaEeeyRYqmvH3qig" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#84"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#84"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cK6qaEeeyRYqmvH3qig" formalName="Existing1" incoming="_Sp7caKqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cLKqaEeeyRYqmvH3qig" formalName="New" outgoing="_Sp7cbqqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.3"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlIqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cLaqaEeeyRYqmvH3qig" name="CREATE_TransitionAction_IN_Transition_(action)" editRuleName="CREATE_TransitionAction_IN_Transition_(action)" outgoing="_Sp7cXKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cLqqaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7caaqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cL6qaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1/@action"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlMKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cMKqaEeeyRYqmvH3qig" name="CREATE_DO_IN_State_(actions)" editRuleName="CREATE_DO_IN_State_(actions)" outgoing="_Sp7cZKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cMaqaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7ccaqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cMqqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@subVertexes.2/@actions.0"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlNqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cM6qaEeeyRYqmvH3qig" name="CREATE_Transition_IN_State_(internalTransitions)" editRuleName="CREATE_Transition_IN_State_(internalTransitions)" outgoing="_Sp7cXqqaEeeyRYqmvH3qig" incoming="_Sp7cWqqaEeeyRYqmvH3qig _Sp7cXKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cNKqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#80"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#80"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cNaqaEeeyRYqmvH3qig" formalName="Existing" incoming="_Sp7ca6qaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cNqqaEeeyRYqmvH3qig" formalName="Existing1">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#83"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#83"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cN6qaEeeyRYqmvH3qig" formalName="New" outgoing="_Sp7caaqaEeeyRYqmvH3qig _Sp7cbKqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlPKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cOKqaEeeyRYqmvH3qig" name="SET_ATTRIBUTE_Guard_Expression" editRuleName="SET_ATTRIBUTE_Guard_Expression">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cOaqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0/@guard"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0/@guard"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Sp7cOqqaEeeyRYqmvH3qig" formalName="Expression" actual="[Lager_Sensor_Mat_Vorhanden AND Lager_Sensor_Metall]"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlSqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cO6qaEeeyRYqmvH3qig" name="CREATE_Guard_IN_Transition_(guard)" editRuleName="CREATE_Guard_IN_Transition_(guard)" outgoing="_Sp7cWqqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cPKqaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7cbKqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cPaqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1/@guard"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlUKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cPqqaEeeyRYqmvH3qig" name="CREATE_State_IN_CompositeState_(subVertexes)" editRuleName="CREATE_State_IN_CompositeState_(subVertexes)" incoming="_Sp7cXqqaEeeyRYqmvH3qig _Sp7cYqqaEeeyRYqmvH3qig _Sp7cZKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cP6qaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#80"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#80"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cQKqaEeeyRYqmvH3qig" formalName="New" outgoing="_Sp7caKqaEeeyRYqmvH3qig _Sp7ca6qaEeeyRYqmvH3qig _Sp7ccaqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ValueParameterBinding" xmi:id="_Sp7cQaqaEeeyRYqmvH3qig" formalName="Id" actual="87"/>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlVqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cQqqaEeeyRYqmvH3qig" name="CREATE_DO_IN_State_(actions)" editRuleName="CREATE_DO_IN_State_(actions)" outgoing="_Sp7cZqqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cQ6qaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7ccKqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cRKqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@subVertexes.1/@actions.0"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlXqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cRaqaEeeyRYqmvH3qig" name="CREATE_Transition_IN_State_(internalTransitions)" editRuleName="CREATE_Transition_IN_State_(internalTransitions)" outgoing="_Sp7cYKqaEeeyRYqmvH3qig" incoming="_Sp7cVqqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cRqqaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#80"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#80"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cR6qaEeeyRYqmvH3qig" formalName="Existing">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#84"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#84"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cSKqaEeeyRYqmvH3qig" formalName="Existing1" incoming="_Sp7cb6qaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cSaqaEeeyRYqmvH3qig" formalName="New" outgoing="_Sp7cbaqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.2"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlZKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cSqqaEeeyRYqmvH3qig" name="CHANGE_REFERENCE_Transition_(target)_TGT_StateVertex" editRuleName="CHANGE_REFERENCE_Transition_(target)_TGT_StateVertex" outgoing="_Sp7cVKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cS6qaEeeyRYqmvH3qig" formalName="selectedEObject">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.0"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cTKqaEeeyRYqmvH3qig" formalName="OldTarget">
+      <actualA href="platform:/resource/ModelsForFASE/models/statemachine/sc01.statemachine#84"/>
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#84"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cTaqaEeeyRYqmvH3qig" formalName="NewTarget" incoming="_Sp7caqqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlcqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cTqqaEeeyRYqmvH3qig" name="CREATE_Guard_IN_Transition_(guard)" editRuleName="CREATE_Guard_IN_Transition_(guard)" outgoing="_Sp7cVqqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cT6qaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7cbaqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.2"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cUKqaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.2/@guard"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlfqqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <operationInvocations xmi:id="_Sp7cUaqaEeeyRYqmvH3qig" name="CREATE_Guard_IN_Transition_(guard)" editRuleName="CREATE_Guard_IN_Transition_(guard)" outgoing="_Sp7cWKqaEeeyRYqmvH3qig">
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cUqqaEeeyRYqmvH3qig" formalName="selectedEObject" incoming="_Sp7cbqqaEeeyRYqmvH3qig">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.3"/>
+    </parameterBindings>
+    <parameterBindings xsi:type="asymmetric:ObjectParameterBinding" xmi:id="_Sp7cU6qaEeeyRYqmvH3qig" formalName="New">
+      <actualB href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.3/@guard"/>
+    </parameterBindings>
+    <changeSet href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNlhKqaEeeyRYqmvH3qig"/>
+  </operationInvocations>
+  <depContainers xmi:id="_Sp7cVKqaEeeyRYqmvH3qig" source="_Sp7cSqqaEeeyRYqmvH3qig" target="_Sp7cJKqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cVaqaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cVqqaEeeyRYqmvH3qig" source="_Sp7cTqqaEeeyRYqmvH3qig" target="_Sp7cRaqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cV6qaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.2"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cWKqaEeeyRYqmvH3qig" source="_Sp7cUaqaEeeyRYqmvH3qig" target="_Sp7cKKqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cWaqaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.3"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cWqqaEeeyRYqmvH3qig" source="_Sp7cO6qaEeeyRYqmvH3qig" target="_Sp7cM6qaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cW6qaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cXKqaEeeyRYqmvH3qig" source="_Sp7cLaqaEeeyRYqmvH3qig" target="_Sp7cM6qaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cXaqaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#//@subStateMachines.9/@top.1/@internalTransitions.1"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cXqqaEeeyRYqmvH3qig" source="_Sp7cM6qaEeeyRYqmvH3qig" target="_Sp7cPqqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cX6qaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cYKqaEeeyRYqmvH3qig" source="_Sp7cRaqaEeeyRYqmvH3qig" target="_Sp7cJKqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cYaqaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cYqqaEeeyRYqmvH3qig" source="_Sp7cKKqaEeeyRYqmvH3qig" target="_Sp7cPqqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cY6qaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cZKqaEeeyRYqmvH3qig" source="_Sp7cMKqaEeeyRYqmvH3qig" target="_Sp7cPqqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cZaqaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#87"/>
+    </dependencies>
+  </depContainers>
+  <depContainers xmi:id="_Sp7cZqqaEeeyRYqmvH3qig" source="_Sp7cQqqaEeeyRYqmvH3qig" target="_Sp7cJKqaEeeyRYqmvH3qig">
+    <dependencies xsi:type="asymmetric:NodeDependency" xmi:id="_Sp7cZ6qaEeeyRYqmvH3qig" kind="CreateUse">
+      <object href="platform:/resource/ModelsForFASE/models/statemachine/sc02.statemachine#86"/>
+    </dependencies>
+  </depContainers>
+  <parameterMappings xmi:id="_Sp7caKqaEeeyRYqmvH3qig" source="_Sp7cQKqaEeeyRYqmvH3qig" target="_Sp7cK6qaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7caaqaEeeyRYqmvH3qig" source="_Sp7cN6qaEeeyRYqmvH3qig" target="_Sp7cLqqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7caqqaEeeyRYqmvH3qig" source="_Sp7cJqqaEeeyRYqmvH3qig" target="_Sp7cTaqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7ca6qaEeeyRYqmvH3qig" source="_Sp7cQKqaEeeyRYqmvH3qig" target="_Sp7cNaqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7cbKqaEeeyRYqmvH3qig" source="_Sp7cN6qaEeeyRYqmvH3qig" target="_Sp7cPKqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7cbaqaEeeyRYqmvH3qig" source="_Sp7cSaqaEeeyRYqmvH3qig" target="_Sp7cT6qaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7cbqqaEeeyRYqmvH3qig" source="_Sp7cLKqaEeeyRYqmvH3qig" target="_Sp7cUqqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7cb6qaEeeyRYqmvH3qig" source="_Sp7cJqqaEeeyRYqmvH3qig" target="_Sp7cSKqaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7ccKqaEeeyRYqmvH3qig" source="_Sp7cJqqaEeeyRYqmvH3qig" target="_Sp7cQ6qaEeeyRYqmvH3qig"/>
+  <parameterMappings xmi:id="_Sp7ccaqaEeeyRYqmvH3qig" source="_Sp7cQKqaEeeyRYqmvH3qig" target="_Sp7cMaqaEeeyRYqmvH3qig"/>
+  <symmetricDifference href="platform:/resource/ModelsForFASE/models/statemachine/sc01_x_sc02_EMFCompareMatcherAdapter_technical_lifted_post-processed.symmetric#_SoNk4KqaEeeyRYqmvH3qig"/>
+</asymmetric:AsymmetricDifference>
