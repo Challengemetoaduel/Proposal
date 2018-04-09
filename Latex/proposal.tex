@@ -30,6 +30,8 @@
 \setboolean{showhints}{true}
 %\setboolean{showhints}{false}
 
+\usepackage{amsmath}
+
 \newcommand\hint[2]{
 	\ifthenelse{\boolean{showhints}}{
 		\begin{center}
@@ -60,7 +62,7 @@
 	\\
 	- This is accomplished by creating models and meta-models describing the solution precisely and completely while maintaining a necessary level of abstraction. (Skript 07.1)
 	\\
-	- For example: In object-oriented modeling class diagrams are indispensable. \ref{classDiag} shows classes and their relationships such as dependencies and associations. 
+	- For example: In object-oriented modeling class diagrams are indispensable. Figure \ref{fig:classDiag1} and \ref{fig:classDiag2} show classes and their relationships such as dependencies and associations. 
 	\\
 	- Importance of models: 
 	Recognition of patterns and redundancies allowing simplification (creation of a super class) 
@@ -86,7 +88,7 @@
 	\\
 	- Using machine learning algorithms and data structures we look for reoccurring patterns
 	\\
-	- The patterns are then matched to a model which is being worked on. 
+	- The patterns are then matched to a model which is currently being worked on. 
 	\\
 	- If a fit is found a recommendation can be done.
 	\\
@@ -100,43 +102,44 @@
 		\item Delete the same attributes and functions from X
 	\end{itemize}
 	Abstraction: Pull up shared attributes/functions to superclass
-	\begin{center}
-		\begin{figure}
-			\begin{tikzpicture}
-			\begin{class}{Class A}{0,0}
-			\attribute{attributeA : typeA}
-			\attribute{attributeB: typeB}
-			\end{class}
-			
-			\begin{class}{Class B}{7,0}
-			\attribute{attributeA : typeA}
-			\attribute{attributeC : typeC}
-			\end{class}
-			\end{tikzpicture}
-			\caption{Class diagram. Class A and class B share attributeA.}
-		\end{figure}
-	\end{center}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\begin{class}{Class A}{0,0}
+		\attribute{attributeA : typeA}
+		\attribute{attributeB: typeB}
+		\end{class}
+		
+		\begin{class}{Class B}{7,0}
+		\attribute{attributeA : typeA}
+		\attribute{attributeC : typeC}
+		\end{class}
+		\end{tikzpicture}
+		\caption{Class diagram. Class A and class B share attributeA.}
+		\label{fig:classDiag1}
+	\end{figure}
 	
-	\begin{center}
-		\begin{figure}
-			\begin{tikzpicture}
-			\begin{abstractclass}{Superclass}{0,0}
-			\attribute{attributeA : typeA}
-			\end{abstractclass}
-			
-			\begin{class}{Class A}{-5,-3}
-			\inherit{Superclass}
-			\attribute{attributeB: typeB}
-			\end{class}
-			
-			\begin{class}{Class B}{5,-3}
-			\inherit{Superclass}
-			\attribute{attributeC : typeC}
-			\end{class}
-			\end{tikzpicture}
-			\caption{attributeA is "pulled up" from class A and B to Superclass. }
-		\end{figure}
-	\end{center}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\begin{abstractclass}{Superclass}{0,0}
+		\attribute{attributeA : typeA}
+		\end{abstractclass}
+		
+		\begin{class}{Class A}{-5,-3}
+		\inherit{Superclass}
+		\attribute{attributeB: typeB}
+		\end{class}
+		
+		\begin{class}{Class B}{5,-3}
+		\inherit{Superclass}
+		\attribute{attributeC : typeC}
+		\end{class}
+		\end{tikzpicture}
+		\caption{attributeA is "pulled up" from class A and B to Superclass. }
+		\label{fig:classDiag2}
+	\end{figure}
+	
 	\section{\iflanguage{ngerman}
 		{Problemstellung}
 		{Problem Statement}}
@@ -157,24 +160,23 @@
 	\\
 	- User-level actions consist of various low-level actions.
 	\\
-	- For example: Creating a new string-attribute \textit{section} in the class \textit{Developer} consists of the low-level actions:
-	\\
+	- The creation of a new string-attribute \textit{section} in the class \textit{Developer} in \textit{company} consists of the low-level actions:
 	\begin{enumerate}
-		\item Create attribute: section
+		\item Create attribute-object: section
 		\item Add containingClass-reference from section to Developer
 		\item Add structuralFeatures-reference from Developer to section
 		\item Add type-reference from section to String
 		\item Change the value of section.
 	\end{enumerate}
-	- This example can be seen in \ref{fig:SiLiftEx}
-	\\
-	- Abstracting the individual actions we can create a \textit{recognition rule} for the user-level action INSERT \textless type\textgreater  \textless attr\textgreater=\textless val\textgreater  IN \textless class\textgreater :
+	- Abstracting the individual actions we can create a \textit{recognition rule} for the user-level action
+	$ \text{INSERT } type \text{ } attr = val \text{ IN } class$:
+	
 	\begin{enumerate}
-		\item Create attribute: \textless attr\textgreater
-		\item Add containingClass-reference from \textless attr\textgreater  to \textless class\textgreater
-		\item Add structuralFeatures-reference from \textless class\textgreater  to \textless attr\textgreater
-		\item Add type-reference from \textless attr\textgreater  to \textless type\textgreater
-		\item Change value of \textless attr\textgreater  to \textless val\textgreater
+		\item Create attribute-object: $ attr$
+		\item Add containingClass-reference from $ attr$  to $ class$
+		\item Add structuralFeatures-reference from $ class$  to $ attr$
+		\item Add type-reference from $ attr$  to $ type$
+		\item Change value of $ attr$  to $ val$
 	\end{enumerate}
 	- SiLift uses these recognition rules and \textit{lifts} matching sets of low-level actions to user-level actions.
 	\\
@@ -201,33 +203,35 @@
 	\\
 	-The abstraction consists of mapping the arguments of an action to variables.
 	\\
-	- For example: Create attribute: section becomes Create attribute: \textless attr0\textgreater with \textless attr0\textgreater = section.
+	- For example: Create attribute: section becomes Create attribute: $attr$ with $attr$ = section.
 	\\
-	- With this abstraction two actions can be compared by simply comparing their abstracted version with one another.
+	- With this abstraction two instances of the same abstract action can be recognized as such.
 	\\
-	- When comparing action sequences checking whether the mapping and using of variables are consistent with each other.
+	- When comparing action sequences it is necessary to check whether the mapping and using of variables is consistent within the entire action sequence.
 	\\
 	- If a variable is mapped to an object then all actions using that object must use the variable in the abstracted action sequence.
 	\\
 	- Now we are able to find recurring implementations of the same abstract user-level action.
 	\\
-	- We do this with following algorithm:
-	\begin{algorithm}
-		\KwIn{Dependency graph \textbf{G}}
-		\KwOut{Decision trees for recommendation}
-		\ForEach{Orphan Node \textbf{o}}{
-			Create abstract version of action \textbf{a}\;
-			Find tree \textbf{t} with \textbf{a} at it's root\;
-			\If{No such tree exists}{Create one}
-			With Breadth-First-Search:\\
-			\ForEach{Path \textbf{p} reachable from \textbf{o} in \textbf{G}}{
-				\If{\textbf{p} does not exist in \textbf{t} starting at the root}
-				{Extend the longest matching path in \textbf{t} starting at the root to \textbf{p}\;}
-				Reinforce the probability of the path in \textbf{t}\;
+	- We do this with algorithm \ref{alg:decTrees}\\
+		\begin{algorithm}
+			\label{alg:decTrees}
+			\KwIn{Dependency graph \textbf{G}}
+			\KwOut{Decision trees for recommendation}
+			\ForEach{Orphan Node \textbf{o}}{
+				Create abstract version of action \textbf{a}\;
+				Find tree \textbf{t} with \textbf{a} at it's root\;
+				\If{No such tree exists}{Create one}
+				With Breadth-First-Search:\\
+				\ForEach{Path \textbf{p} reachable from \textbf{o} in \textbf{G}}{
+					\If{\textbf{p} does not exist in \textbf{t} starting at the root}
+					{Extend the longest matching path in \textbf{t} starting at the root to \textbf{p}\;}
+					Reinforce the probability of the path in \textbf{t}\;
+				}
+				
 			}
-			
-		}
-	\end{algorithm}
+		\caption{Algorithm for the creation of the decision tree data structure.}
+		\end{algorithm}
 	- The construction of the data-structure automatically calculates the absolute number of occurrences of any path and with it the relative probability of it's occurrence.
 	\\
 	This allows us to match the last actions done by the user to the decision trees. 
@@ -296,9 +300,7 @@
 		\item [Communication of research:] Unknown concepts will be explained and sources for further explanations will be provided. 
 	\end{description}
 	
-	We will roughly follow the model 
-
-  	\textbf{TODO: what and WHY we do this models for}
+	We will roughly follow an adaptation of a design process model by Takeda, et. al (1990). The model is depicted in figure \ref{fig:dsrModel}. It is comparable to software engineering processes. \textit{Awareness of Problem} and \textit{Suggestion} having the goal of thoroughly describing the problem and correctly and completely designing a possible solution. Afterwards the solution is implemented and tested. This steps are iterated repeatedly until a sound solution is engineered.
 	\iflanguage{ngerman}{
 		\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=5em, text centered, rounded corners, minimum height=4em]
 		\tikzstyle{line} = [draw, very thick, color=black!50, -latex']
@@ -318,12 +320,15 @@
  	}
  	{
  		\begin{figure}
- 			\includegraphics[width=\linewidth]{./res/DSR_Model.png}
+ 			\centering
+ 			\includegraphics[scale=0.5]{./res/DSR_Model.png}
  			\caption{Design Science Research Process Model}
+ 			\label{fig:dsrModel}
  			%http://desrist.org/desrist/content/design-science-research-in-information-systems.pdf
+ 			%Adapted by V. Vaishnavi, et al. (2017) from Takeda, et al (1990)
  		\end{figure}
- 	
 	}
+	
 	
 
 	
